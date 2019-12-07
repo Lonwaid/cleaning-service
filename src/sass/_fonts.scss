@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    font-display: swap;
+    src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+        url('../fonts/ProximaNova/ProximaNova-Light.woff2') format('woff2'),
+        url('../fonts/ProximaNova/ProximaNova-Light.woff') format('woff'),
+        url('../fonts/ProximaNova/ProximaNova-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    font-display: swap;
+    src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+        url('../fonts/ProximaNova/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../fonts/ProximaNova/ProximaNova-Semibold.woff') format('woff'),
+        url('../fonts/ProximaNova/ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova Th';
+    font-display: swap;
+    src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+        url('../fonts/ProximaNova/ProximaNova-Extrabld.woff2') format('woff2'),
+        url('../fonts/ProximaNova/ProximaNova-Extrabld.woff') format('woff'),
+        url('../fonts/ProximaNova/ProximaNova-Extrabld.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@mixin extrabold {
+    font-family: 'Proxima Nova Th';
+    font-weight: 800;
+}
+@mixin lt {
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+}
+@mixin semibold {
+    font-family: 'Proxima Nova Lt';
+    font-weight: 600;
+}

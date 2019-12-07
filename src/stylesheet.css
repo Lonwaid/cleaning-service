@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+        url('ProximaNova-Light.woff2') format('woff2'),
+        url('ProximaNova-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+        url('ProximaNova-Extrabld.woff2') format('woff2'),
+        url('ProximaNova-Extrabld.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
